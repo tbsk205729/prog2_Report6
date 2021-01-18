@@ -4,7 +4,12 @@ import java.util.ArrayList;
 
 public class  Data {
 
-    ArrayList<Subjects> subjects = new ArrayList<>();
+    private ArrayList<Subjects> subjects = new ArrayList<>();
+    public ArrayList<Subjects> getSubjects(){return subjects;}
+
+    private ArrayList<Subjects> get_subjects = new ArrayList<>();
+    public ArrayList<Subjects> getGet_subjects(){return get_subjects;}
+
 
     Data(){
         var kenkou = new Subjects("健康運動系科目",0);
