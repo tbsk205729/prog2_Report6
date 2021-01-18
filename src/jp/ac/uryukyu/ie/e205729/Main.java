@@ -4,7 +4,9 @@ public class Main {
 
     public static void main(String[] args){
 
-        
+        var data = new Data();
+
+        data.PrintTest();
     
 
     }

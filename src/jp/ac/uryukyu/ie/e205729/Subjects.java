@@ -21,7 +21,9 @@ public class Subjects {
     }
 
     
-    
+    void PrintTest() {
+        System.out.printf("%s  %d \n",name,unit_value);
+    }
 
     
     

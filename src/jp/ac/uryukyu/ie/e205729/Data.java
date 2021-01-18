@@ -61,5 +61,10 @@ public class  Data {
         
     }
 
+    public void PrintTest() { 
+        for(var sb : subjects) {
+            sb.PrintTest();
+        }
+    }
     
 }
